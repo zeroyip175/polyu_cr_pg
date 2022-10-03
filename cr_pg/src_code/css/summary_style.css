@@ -1,0 +1,49 @@
+h1, h2, p, table{
+    font-family: "Gill Sans", sans-serif;
+}
+table, tr, th, td{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 5px;
+}
+html, body{
+    position: static;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.suggestion_btn{
+	color: #ffffff;
+	background-color: #e00000;
+	font-size: 14px;
+	border: 1px solid #2d63c8;
+	border-radius: 10px;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+.update_btn{
+	color: #ffffff;
+	background-color: #55bb54;
+	font-size: 14px;
+	border: 1px solid #2d63c8;
+	border-radius: 10px;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+.suggestion_btn:hover, .update_btn:hover, #logout:hover{
+    color: #2d63c8;
+	background-color: #ffffff;
+}
+#logout{
+	color: #ffffff;
+	background-color: #0099ff;
+	font-size: 14px;
+	border: 1px solid #2d63c8;
+	border-radius: 10px;
+	padding: 8px 20px;
+	cursor: pointer;
+}
